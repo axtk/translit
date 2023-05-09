@@ -7,7 +7,7 @@
         "vowel": [
             "а", "е", "ѣ", "ё", "и", "і", "о", "у", "ы", "э", "ю", "я"
         ],
-        "nonIotatedVowel": [
+        "nonIotizedVowel": [
             "а", "и", "і", "о", "у", "ы", "э"
         ]
     },
@@ -29,12 +29,12 @@
         {"key": "з", "to": "z"},
         {"key": "и", "from": ["и", "й", "NOT #vowel"], "to": ["í", "", "~"]},
         {"key": "и", "from": ["и", "и"], "to": ["i", "i"]},
-        {"key": "и", "from": ["и", "#nonIotatedVowel"], "to": ["í", "~"]},
+        {"key": "и", "from": ["и", "#nonIotizedVowel"], "to": ["í", "~"]},
         {"key": "и", "from": ["#vowel", "и"], "to": ["~", "í"]},
         {"key": "и", "to": "i"},
         {"key": "і", "from": ["і", "й", "NOT #vowel"], "to": ["í", "", "~"]},
         {"key": "і", "from": ["і", "і"], "to": ["i", "i"]},
-        {"key": "і", "from": ["і", "#nonIotatedVowel"], "to": ["í", "~"]},
+        {"key": "і", "from": ["і", "#nonIotizedVowel"], "to": ["í", "~"]},
         {"key": "і", "from": ["#vowel", "і"], "to": ["~", "í"]},
         {"key": "і", "to": "i"},
         {"key": "й", "from": ["#vowel", "й", "NOT #vowel"], "to": ["~", "i", "~"]},
