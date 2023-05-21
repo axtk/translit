@@ -52,6 +52,7 @@
         {"key": "ы", "from": ["OTHER #vowel", "ы"], "to": ["~", "ý"]},
         {"key": "ы", "to": "y"},
         {"key": "э", "from": ["#consonant", "э"], "to": ["~", "é"]},
+        {"key": "э", "from": ["#vowel", "э"], "to": ["~", "é"]},
         {"key": "э", "to": "e"},
         {"key": "ю", "from": ["#consonant", "ю"], "to": ["~", "iu"]},
         {"key": "ю", "to": "ju"},
